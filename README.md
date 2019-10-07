@@ -10,7 +10,10 @@ K-means clustering algorithm computes the centroids and iterates until we it fin
 •Now it will compute the cluster centroids.
 
 •Next, keep iterating the following until we find optimal centroid which is the assignment of data points to the clusters that are not changing any more
+
      •First, the sum of squared distance between data points and centroids would be computed.
+     
      •Now, we have to assign each data point to the cluster that is closer than other cluster (centroid).
+     
      •At last compute the centroids for the clusters by taking the average of all data points of that cluster.
      
